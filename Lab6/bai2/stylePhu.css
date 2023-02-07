@@ -1,0 +1,39 @@
+body {
+    width: 70%%;
+    margin: 0px auto;
+    margin-left: 10%;
+}
+
+.sanPham {
+    float: left;
+    background-color: rgb(179, 179, 179);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(81, 47, 47);
+}
+
+.sanPham>img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.sanPham .ten {
+    text-align: center;
+    color: blue;
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.sanPham .gia {
+    text-align: center;
+    color: rgb(252, 2, 2);
+    font-size: large;
+    font-weight: bolder;
+}
+
+.sanPham .gia del {
+    color: gray;
+}

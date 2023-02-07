@@ -1,0 +1,62 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header>img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+nav {
+    line-height: 40px;
+    background-color: #e64c00;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+nav a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav>a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+article {
+    float: left;
+    background-color: rgb(179, 179, 179);
+    width: 70%;
+    height: 400px;
+}
+
+aside {
+    float: right;
+    background-color: rgb(154, 151, 151);
+    width: 30%;
+    height: 400px;
+}
+
+footer {
+    clear: both;
+    height: 50px;
+    font-size: x-large;
+    border-top: 5px double orangered;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 50px;
+    background-color: rgb(93, 95, 217);
+    text-align: center;
+    font-variant: small-caps;
+
+}
+
+iframe[name=page] {
+    width: 100%;
+    min-height: 400px;
+}
