@@ -7,7 +7,7 @@ Diện tích hình tam giác đểu biết "tam giác đều = 1/4 hình vuông"
 */
 int main()
 {
-    // 3,14 và 4 là giá trị không đổi nên ta dùng hàm  const
+    // 3.14 và 4 là giá trị không đổi nên ta dùng hàm  const
     const float PI = 3.14;
     const int BON = 4;
     // khai báo a kiểu số nguyên
