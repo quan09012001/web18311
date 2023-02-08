@@ -1,0 +1,32 @@
+h2 {
+    font-style:normal;
+    font-size: 30px;
+}
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    color: rgb(27, 50, 119);
+}
+body {
+    font-style: italic;
+    background-color: rgba(171, 187, 160, 0.437);
+}
+
+strong {
+    color: brown;
+}
+
+#doan1 {
+    color: red;
+}
+
+#doan2 {
+    color: blue;
+}
+
+#doan3 {
+    color: green;
+}
+.doan {
+    font-size: 20px;
+}
