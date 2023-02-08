@@ -1,0 +1,51 @@
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="file"],
+input[type="checkbox"],
+input[type="hidden"],
+input[type="button"],
+input[type="reset"] {
+    display: block;
+    margin: 10px 0;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
