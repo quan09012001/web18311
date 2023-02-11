@@ -48,14 +48,13 @@ label {
  }
  .center {
     display: block;
-    margin: 0 auto;
     width: 30%;
     padding: 10px;
-    background-color: #00b506;
+    background-color: #00d808;
     border-radius: 15px;
  }
  .center:hover {
-    background-color: #49ff4c;
+    background-color: #00ff04;
  }
  img {
     width: 10%;
