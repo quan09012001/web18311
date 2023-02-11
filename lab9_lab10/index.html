@@ -13,7 +13,13 @@
     <form>
         <h1>Sign Up</h1>
         <p>It's quick and easy.</p>
-        <div class="false"></div>
+        <br>
+        <hr>
+        <br>
+        <div class="false">
+            <p>Please enter your correct information. Learn more about our policy</p>
+        </div>
+        <br>
         <input type="text" class="name" id="first_name" name="name" placeholder="First name">
         <input type="text" id="last name" name="name" placeholder="Last name">
         <input type="email" id="email" name="email" placeholder="Enter your email">
@@ -22,18 +28,21 @@
         <label for="dob">Date of birth:</label>
         <input type="date" id="dob" name="dob">
         <label for="gender">Gender:</label>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label>
-        <input type="radio" id="custom" name="gender" value="custom">
-        <label for="custom">Custom</label>
-        <button type="submit">Sign Up</button>
+        <div class="gender">
+            <label class="gender" for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="custom">Custom</label>
+            <input type="radio" id="custom" name="gender" value="custom">
+        </div>
         <p>People who use our service may have uploaded your contact information to Facebook. <a
                 href="data/learn_more.html">Learn more.</a></p>
-        <p>By clicking Sign Up, you agree to our <a href="data/terms.html">Terms</a>, <a href="data/privacy_policy.html">Privacy
+        <p>By clicking Sign Up, you agree to our <a href="data/terms.html">Terms</a>, <a
+                href="data/privacy_policy.html">Privacy
                 Policy</a> and <a href="data/cookies_policy.html">Cookies Policy</a> . You may receive SMS
             notifications from us and can opt out at any time.</p>
+        <button type="submit" class="center" >Sign Up</button>
     </form>
 </body>
 
