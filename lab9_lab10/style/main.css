@@ -50,6 +50,13 @@ label {
     margin: 0 auto;
     width: 30%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #00b506;
     border-radius: 15px;
+ }
+ .center:hover {
+    background-color: #49ff4c;
+ }
+ img {
+    width: 10%;
+    float: right;
  }
