@@ -17,46 +17,46 @@ input[type="text"] {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
+
 }
-
-
 
 input[type="email"],
 input[type="password"],
-input[type="date"], input[type="submit"]  {
+input[type="date"],
+input[type="submit"] {
     width: 93%;
     padding: 2px;
-    margin-bottom:  20px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-label {
-    float: left;
 }
 
 .gender {
     display: flex;
- }
- .false {
+}
+
+.false {
     border: 2px solid rgba(255, 0, 0, 0.456);
     background-color: rgba(252, 0, 0, 0.225);
     padding: 5px;
     width: 90%;
-    font-size:small;
+    font-size: small;
     float: left;
- }
- .center {
+}
+
+.center {
     display: block;
     width: 30%;
     padding: 10px;
     background-color: #00d808;
     border-radius: 15px;
- }
- .center:hover {
+}
+
+.center:hover {
     background-color: #00ff04;
- }
- img {
+}
+
+img {
     width: 10%;
     float: right;
- }
+}
