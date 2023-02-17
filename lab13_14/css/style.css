@@ -1,0 +1,76 @@
+* {
+    background-color: aliceblue;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    color: blue;
+    border-radius: 20px;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align:justify;
+}
+main p img {
+    float: left;
+    width: 60%;
+    min-width: 250px;
+    max-width: 500px;
+    padding: 1px;
+    margin: 5px;
+    border: 2px solid blue;
+}
+main iframe {
+    clear: both;
+    float: left;
+    margin: 5px;
+    padding: 1px;
+    width: 60%;
+    max-width: 500px;
+    min-width: 250px;
+    max-height: 700px;
+    min-height: 250px;
+}
+
+footer {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    color: blue;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .fb-like, .fb-share-button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fb-share-button a {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  
+  .fb-share-button a:hover {
+    background-color: #2d4373;
+  }
