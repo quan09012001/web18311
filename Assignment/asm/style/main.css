@@ -1,0 +1,186 @@
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, sans-serif;
+  background-color: rgb(231, 231, 231);
+}
+
+header,
+nav,
+article,
+aside,
+footer {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  flex: 1;
+  background-color: rgb(1, 5, 110);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: rgb(29, 10, 38);
+  position: fixed;
+  top: 75px;
+  left: 20%;
+  right: 0;
+  height: 20px;
+  flex: 1;
+  display: flex;
+  font-size: 70%;
+  align-items: center;
+  background-position: center center;
+  transform: skew(-45deg);
+  transform-origin: bottom left;
+  display: flex;
+  z-index: 2;
+
+}
+
+a {
+color: rgb(255, 255, 255);
+font-weight: bold;
+text-decoration: none;
+}
+a:hover {
+  font-size: 200%;
+  color: red;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  transform: skew(45deg);
+}
+
+li {
+  float: left;
+  padding: 20px;
+}
+
+li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+width: 20%;
+  color: #fff;
+}
+
+li ul li {
+  border: 1px solid #fff;
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  align-content: center;
+}
+
+li:hover ul {
+  display: block;
+}
+
+li ul li {
+  display: inline-block;
+  border: 1px solid #fff;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin-right: 5px;
+  align-content: center;
+}
+
+
+
+li:hover>ul {
+  display: block;
+  transform: skew(0deg);
+}
+
+
+article {
+  position: fixed;
+  top: 15%;
+  left: 0;
+  right: 0;
+  bottom: -8%;
+  flex: 1;
+  z-index: 1;
+}
+
+aside {
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 75%;
+  flex: 1;
+  background-color: lightyellow;
+  display: none;
+}
+
+footer {
+  color: red;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  flex: 1;
+  background-color: rgb(1, 5, 110);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a > #logo {
+  position: absolute;
+  left: -30%;
+  bottom: 0;
+  padding: 2px;
+  transform: skew(45deg);
+}
+
+@media only screen and (min-width: 768px) {
+  aside {
+    display: block;
+  }
+
+  header {
+    left: 25%;
+  }
+
+  nav {
+    font-size: 80%;
+    left: 40%;
+  }
+
+  article {
+    left: 25%;
+  }
+
+  footer {
+    left: 25%;
+  }
+}
+
+iframe[name=page] {
+  width: 100%;
+  min-height: 80%;
+}
+
+@media only screen and (max-width: 520px) {
+nav {
+  font-size: 50%;
+}
+}
