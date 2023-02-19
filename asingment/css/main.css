@@ -4,10 +4,9 @@ body {
 
 nav img {
     float: left;
-    width: 100px;
+    height: 35px;
     padding-right: 20px;
     padding-left: 10px;
-    margin-top: 2px;
 }
 
 nav {
@@ -50,9 +49,9 @@ nav .active {
 }
 article {
     position:absolute;
-    width: 100%;
+    width: 98%;
     margin-bottom: 0;
-    top: 50px;
+    top: 55px;
 }
 
 footer {
