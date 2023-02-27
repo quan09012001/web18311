@@ -7,6 +7,24 @@ body {
     background-color: #c6c6c62b;
 }
 
+header {
+    display: inline;
+    background-color: #333;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 2px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header:hover {
+    background-color: #04AA6D;
+}
+
 nav img {
     float: left;
     height: 35px;
